@@ -10,6 +10,15 @@ const MAX_CONTEXT_RECORDS = 8;
 
 const repoRoot = path.resolve(__dirname, '..', '..', '..');
 const backendRoot = path.resolve(__dirname, '..', '..');
+const quickSightDatasetDir = path.join(backendRoot, 'data', 'quicksight-datasets');
+
+const quickSightDatasetFiles = {
+  support_agent: 'support_agent_tickets_200.csv',
+  team_manager: 'team_manager_performance_200.csv',
+  business_executive: 'business_executive_insights_200.csv',
+  system_admin: 'system_admin_activity_200.csv',
+  customer: 'customer_portal_activity_200.csv',
+};
 
 const candidateDirs = [
   path.join(backendRoot, 'data'),
@@ -46,6 +55,7 @@ const supportedFields = [
 ];
 
 let cachedRecords;
+let cachedQuickSightDatasets;
 
 const listDatasetFiles = () => {
   const files = [];
@@ -154,6 +164,24 @@ const getDemoKnowledgeBase = () => readDemoJson('demoKnowledgeBase.json', []);
 const getDemoNotifications = () => readDemoJson('demoNotifications.json', []);
 const getDemoReports = () => readDemoJson('demoReports.json', []);
 
+const getQuickSightDatasets = () => {
+  if (cachedQuickSightDatasets) return cachedQuickSightDatasets;
+
+  cachedQuickSightDatasets = Object.entries(quickSightDatasetFiles).reduce((acc, [role, fileName]) => {
+    try {
+      const filePath = path.join(quickSightDatasetDir, fileName);
+      acc[role] = loadFileRecords(filePath).slice(0, 200);
+    } catch {
+      acc[role] = [];
+    }
+    return acc;
+  }, {});
+
+  return cachedQuickSightDatasets;
+};
+
+const getQuickSightDataset = (role = 'support_agent') => getQuickSightDatasets()[role] || [];
+
 const getMongoTickets = async () => {
   try {
     const Ticket = require('../models/Ticket');
@@ -258,6 +286,8 @@ module.exports = {
   getDemoUsers,
   getMongoTickets,
   getPrimaryTickets,
+  getQuickSightDataset,
+  getQuickSightDatasets,
   getRelevantTicketContext,
   getRelevantTicketContextAsync,
   loadDatasetRecords,

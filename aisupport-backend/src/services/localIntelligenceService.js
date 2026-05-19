@@ -3,6 +3,7 @@ const {
   getDemoKnowledgeBase,
   getDemoTickets,
   getDemoUsers,
+  getQuickSightDataset,
 } = require('./datasetService');
 
 const FALLBACK_NOTICE = 'AI assistant is temporarily unavailable. Showing the best available support response.';
@@ -84,9 +85,39 @@ const top = (items, key, limit = 4) => Object.entries(items.reduce((acc, item) =
   return acc;
 }, {})).sort((a, b) => b[1] - a[1]).slice(0, limit);
 
+const toNumber = (value, fallback = 0) => {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallback;
+};
+
+const isTrue = (value) => String(value).toLowerCase() === 'true';
+
+const average = (items, key) => {
+  if (!items.length) return 0;
+  return items.reduce((sum, item) => sum + toNumber(item[key]), 0) / items.length;
+};
+
+const sum = (items, key) => items.reduce((total, item) => total + toNumber(item[key]), 0);
+
 const formatTicketLine = (ticket) => `${ticket.ticket_id} (${ticket.priority}, ${ticket.status}) - ${ticket.issue_category} for ${ticket.customer_name}`;
 
-const customerResponse = ({ ticket, tickets, intent, kb }) => {
+const customerResponse = ({ ticket, tickets, intent, kb, roleDataset }) => {
+  if (roleDataset.length && ['general_help', 'dashboard_explanation', 'ticket_status', 'ticket_summary'].includes(intent)) {
+    const chatbotEvents = roleDataset.filter((item) => isTrue(item.chatbot_used)).length;
+    const portalResolved = roleDataset.filter((item) => isTrue(item.resolved_via_portal)).length;
+    const escalations = roleDataset.filter((item) => isTrue(item.escalation_requested)).length;
+    const topActions = top(roleDataset, 'portal_action', 3).map(([name, count]) => `${name} (${count})`).join(', ');
+
+    return `Customer Portal Dataset Answer:
+- Dataset Rows: ${roleDataset.length}
+- Chatbot Used: ${chatbotEvents} portal events
+- Resolved via Portal: ${portalResolved} events
+- Escalation Requests: ${escalations}
+- Average Customer Rating: ${average(roleDataset, 'customer_rating').toFixed(1)} / 5
+- Top Portal Actions: ${topActions}
+- Best Action: Promote the most-viewed FAQ and chatbot flows for repeat customer questions.`;
+  }
+
   const selected = ticket || tickets.find((item) => !['Resolved', 'Closed'].includes(item.status)) || tickets[0];
   const article = kb.find((item) => String(item.title).toLowerCase().includes('password')) || kb[0];
 
@@ -105,7 +136,24 @@ const customerResponse = ({ ticket, tickets, intent, kb }) => {
 - Estimated Resolution: ${selected.resolution_time_hours <= 24 ? 'Within 24 hours' : 'Within 2 to 4 business days'}.`;
 };
 
-const supportAgentResponse = ({ ticket, tickets }) => {
+const supportAgentResponse = ({ ticket, tickets, roleDataset }) => {
+  if (roleDataset.length && !ticket) {
+    const openTickets = roleDataset.filter((item) => item.status === 'Open').length;
+    const slaBreaches = roleDataset.filter((item) => isTrue(item.sla_breached)).length;
+    const escalations = roleDataset.filter((item) => isTrue(item.escalation_required)).length;
+    const urgentTickets = roleDataset.filter((item) => item.priority === 'Urgent').slice(0, 3);
+
+    return `Support Agent Dataset Answer:
+- Dataset Rows: ${roleDataset.length}
+- Open Tickets: ${openTickets}
+- SLA Breached Tickets: ${slaBreaches}
+- Escalation Required: ${escalations}
+- Average Resolution Time: ${average(roleDataset, 'resolution_time_hours').toFixed(1)} hours
+- Average Customer Satisfaction: ${average(roleDataset, 'customer_satisfaction').toFixed(1)} / 5
+- Top Issues: ${top(roleDataset, 'issue_category', 4).map(([name, count]) => `${name} (${count})`).join(', ')}
+- Urgent Samples: ${urgentTickets.map(formatTicketLine).join('; ') || 'No urgent tickets found'}`;
+  }
+
   const selected = ticket || tickets.find((item) => item.priority === 'Urgent') || tickets[0];
   return `Ticket Analysis:
 - Ticket ID: ${selected.ticket_id}
@@ -119,7 +167,21 @@ const supportAgentResponse = ({ ticket, tickets }) => {
 - Suggested Customer Reply: Hi ${selected.customer_name}, we reviewed your ${selected.issue_category.toLowerCase()} request and are taking the next action now: ${selected.ai_suggested_resolution}`;
 };
 
-const managerResponse = ({ tickets, analytics }) => {
+const managerResponse = ({ tickets, analytics, roleDataset }) => {
+  if (roleDataset.length) {
+    const overloaded = roleDataset.filter((item) => toNumber(item.open_tickets) > 22 || item.coaching_flag === 'Needs Review');
+    return `Team Manager Dataset Answer:
+- Dataset Rows: ${roleDataset.length}
+- Open Tickets: ${sum(roleDataset, 'open_tickets')}
+- In Progress Tickets: ${sum(roleDataset, 'in_progress_tickets')}
+- Resolved Tickets: ${sum(roleDataset, 'resolved_tickets')}
+- SLA Breached Tickets: ${sum(roleDataset, 'sla_breached_tickets')}
+- Average Team Utilization: ${average(roleDataset, 'team_utilization_pct').toFixed(1)}%
+- Average Resolution Time: ${average(roleDataset, 'avg_resolution_hours').toFixed(1)} hours
+- Coaching Flags: ${overloaded.length}
+- Most Loaded Agents: ${top(overloaded, 'agent_name', 4).map(([name, count]) => `${name} (${count})`).join(', ') || 'No overloaded agents'}`;
+  }
+
   const data = analytics.teamManagerAnalytics || {};
   const overloaded = (data.agentWorkload || []).filter((item) => item.open >= 20).map((item) => item.agent);
   return `Management Insight:
@@ -131,7 +193,21 @@ const managerResponse = ({ tickets, analytics }) => {
 - Recommended Actions: Rebalance urgent tickets, prioritize breached SLAs, and publish KB guidance for recurring payment and login issues.`;
 };
 
-const executiveResponse = ({ tickets, analytics }) => {
+const executiveResponse = ({ tickets, analytics, roleDataset }) => {
+  if (roleDataset.length) {
+    const criticalRows = roleDataset.filter((item) => item.executive_priority === 'Critical');
+    return `Business Executive Dataset Answer:
+- Dataset Rows: ${roleDataset.length}
+- Ticket Volume: ${sum(roleDataset, 'ticket_volume')}
+- Revenue Risk: Rs ${sum(roleDataset, 'revenue_risk_usd').toLocaleString('en-IN')}
+- Churn Risk Customers: ${sum(roleDataset, 'churn_risk_customers')}
+- Average SLA Compliance: ${average(roleDataset, 'sla_compliance_pct').toFixed(1)}%
+- Average CSAT: ${average(roleDataset, 'avg_csat').toFixed(1)} / 5
+- Critical Priority Segments: ${criticalRows.length}
+- Top Products: ${top(roleDataset, 'product', 4).map(([name, count]) => `${name} (${count})`).join(', ')}
+- Recommended Focus: ${top(criticalRows.length ? criticalRows : roleDataset, 'action_recommendation', 2).map(([name]) => name).join('; ')}`;
+  }
+
   const data = analytics.businessExecutiveAnalytics || {};
   return `Executive Insight:
 - Customer Sentiment: ${tickets.filter((ticket) => ticket.ai_sentiment === 'Negative').length} negative tickets require proactive outreach.
@@ -141,7 +217,22 @@ const executiveResponse = ({ tickets, analytics }) => {
 - Strategic Recommendations: ${(data.strategicRecommendations || []).slice(0, 3).join(' ')}`;
 };
 
-const adminResponse = ({ analytics, users }) => {
+const adminResponse = ({ analytics, users, roleDataset }) => {
+  if (roleDataset.length) {
+    const failed = roleDataset.filter((item) => item.status === 'Failed');
+    const highRisk = roleDataset.filter((item) => item.risk_level === 'High');
+    const mfaDisabled = roleDataset.filter((item) => !isTrue(item.mfa_enabled));
+    return `System Admin Dataset Answer:
+- Dataset Rows: ${roleDataset.length}
+- Failed Events: ${failed.length}
+- High Risk Events: ${highRisk.length}
+- MFA Disabled Users/Events: ${mfaDisabled.length}
+- Audit Actions Required: ${roleDataset.filter((item) => isTrue(item.audit_action_required)).length}
+- Top Event Types: ${top(roleDataset, 'event_type', 4).map(([name, count]) => `${name} (${count})`).join(', ')}
+- Most Used API Services: ${top(roleDataset, 'api_service', 3).map(([name, count]) => `${name} (${count})`).join(', ')}
+- Recommended Fix: Review high-risk failed access events and enforce MFA for disabled accounts.`;
+  }
+
   const data = analytics.systemAdminAnalytics || {};
   return `System Admin Insight:
 - System Health: API ${data.systemHealth?.api || 99.9}%, database ${data.systemHealth?.database || 98.7}%.
@@ -186,13 +277,14 @@ const generateLocalResponse = ({ role = 'support_agent', message = '', includeNo
   const ticket = findTicket(extractTicketId(message), tickets);
   const matches = ticket ? [ticket] : searchTickets(message, tickets);
   const scopedTickets = matches.length ? matches : tickets;
+  const roleDataset = getQuickSightDataset(normalizedRole);
 
   const replyByRole = {
-    customer: () => customerResponse({ ticket, tickets: scopedTickets, intent, kb }),
-    support_agent: () => supportAgentResponse({ ticket, tickets: scopedTickets }),
-    team_manager: () => managerResponse({ tickets, analytics }),
-    business_executive: () => executiveResponse({ tickets, analytics }),
-    system_admin: () => adminResponse({ analytics, users }),
+    customer: () => customerResponse({ ticket, tickets: scopedTickets, intent, kb, roleDataset }),
+    support_agent: () => supportAgentResponse({ ticket, tickets: scopedTickets, roleDataset }),
+    team_manager: () => managerResponse({ tickets, analytics, roleDataset }),
+    business_executive: () => executiveResponse({ tickets, analytics, roleDataset }),
+    system_admin: () => adminResponse({ analytics, users, roleDataset }),
   };
 
   const body = (replyByRole[normalizedRole] || replyByRole.support_agent)();
