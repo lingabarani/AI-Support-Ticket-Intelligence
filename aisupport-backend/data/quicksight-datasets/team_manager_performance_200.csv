@@ -1,0 +1,201 @@
+snapshot_date,manager_name,team,agent_name,open_tickets,in_progress_tickets,resolved_tickets,high_priority_tickets,urgent_tickets,sla_breached_tickets,avg_resolution_hours,avg_csat,backlog_age_hours,reassignment_needed,escalation_queue,team_utilization_pct,first_response_minutes,resolution_rate_pct,coaching_flag
+2026-05-01,Neha Rao,Technical Team,Anita Verma,8,4,5,1,0,2,2.8,3.2,12,false,1,62,8,29,On Track
+2026-05-02,Vikram Iyer,Billing Team,Rahul Kumar,9,7,10,2,4,1,12.2,3.3,19,false,2,66,17,38,On Track
+2026-05-03,Meera Nair,Refund Team,Priya Singh,10,10,15,6,2,2,23.8,3.4,26,false,0,70,26,43,On Track
+2026-05-04,Sanjay Patel,Security Team,Arjun Das,11,13,20,4,3,0,37.8,3.5,33,false,1,74,35,45,On Track
+2026-05-05,Neha Rao,Customer Success Team,Simran Kaur,12,16,25,1,4,1,52.8,3.6,40,false,0,78,44,47,On Track
+2026-05-06,Vikram Iyer,Technical Team,Anita Verma,13,5,7,2,8,7,71.2,3.7,47,true,6,82,53,28,Needs Review
+2026-05-07,Meera Nair,Billing Team,Rahul Kumar,14,8,12,10,1,8,49.3,3.8,54,false,1,86,62,35,Needs Review
+2026-05-08,Sanjay Patel,Refund Team,Priya Singh,15,11,17,4,2,2,65.4,3.9,61,false,2,90,71,40,On Track
+2026-05-09,Neha Rao,Security Team,Arjun Das,16,14,22,1,3,2,5.4,4,68,false,0,94,80,42,On Track
+2026-05-10,Vikram Iyer,Customer Success Team,Simran Kaur,17,17,27,2,4,4,17.3,4.1,75,false,4,98,89,44,On Track
+2026-05-11,Meera Nair,Technical Team,Anita Verma,18,6,9,5,0,1,31.4,4.2,82,false,0,65,98,27,On Track
+2026-05-12,Sanjay Patel,Billing Team,Rahul Kumar,19,9,14,4,1,2,47.8,4.3,89,false,1,69,107,33,On Track
+2026-05-13,Neha Rao,Refund Team,Priya Singh,20,12,19,1,2,7,35,4.4,96,false,1,73,116,37,Needs Review
+2026-05-14,Vikram Iyer,Security Team,Arjun Das,21,15,24,2,8,8,49,4.5,103,true,2,77,125,40,Needs Review
+2026-05-15,Meera Nair,Customer Success Team,Simran Kaur,22,4,6,9,4,2,65.3,4.6,14,false,3,81,14,19,On Track
+2026-05-16,Sanjay Patel,Technical Team,Anita Verma,23,7,11,4,0,3,83.8,4.7,21,true,4,85,23,27,On Track
+2026-05-17,Neha Rao,Billing Team,Rahul Kumar,24,10,16,1,1,1,8.8,4.8,28,true,0,89,32,32,On Track
+2026-05-18,Vikram Iyer,Refund Team,Priya Singh,25,13,21,2,4,2,23.2,4.9,35,true,6,93,41,36,On Track
+2026-05-19,Meera Nair,Security Team,Arjun Das,26,16,26,4,3,6,21.3,3.2,42,true,1,97,50,38,Needs Review
+2026-05-20,Sanjay Patel,Customer Success Team,Simran Kaur,8,5,8,4,4,1,33.4,3.3,49,false,1,64,59,38,On Track
+2026-05-21,Neha Rao,Technical Team,Anita Verma,9,8,13,1,0,8,46.8,3.4,56,false,3,68,68,43,Needs Review
+2026-05-22,Vikram Iyer,Billing Team,Rahul Kumar,10,11,18,2,8,2,63.3,3.5,63,true,4,72,77,46,On Track
+2026-05-23,Meera Nair,Refund Team,Priya Singh,11,14,23,8,2,3,82,3.6,70,false,5,76,86,48,On Track
+2026-05-24,Sanjay Patel,Security Team,Arjun Das,12,17,5,4,3,4,103,3.7,77,false,6,80,95,15,On Track
+2026-05-25,Neha Rao,Customer Success Team,Simran Kaur,13,6,10,1,4,0,7,3.8,84,false,0,84,104,34,On Track
+2026-05-26,Vikram Iyer,Technical Team,Anita Verma,14,9,15,2,4,1,17,3.9,91,false,2,88,113,39,On Track
+2026-05-27,Meera Nair,Billing Team,Rahul Kumar,15,12,20,12,1,2,29.2,4,98,false,0,92,122,43,On Track
+2026-05-28,Sanjay Patel,Refund Team,Priya Singh,16,15,25,4,2,8,43.8,4.1,105,false,4,96,11,45,Needs Review
+2026-05-29,Neha Rao,Security Team,Arjun Das,17,4,7,1,3,2,59.4,4.2,16,false,5,63,20,25,On Track
+2026-05-30,Vikram Iyer,Customer Success Team,Simran Kaur,18,7,12,2,8,3,78.4,4.3,23,true,6,67,29,32,On Track
+2026-05-31,Meera Nair,Technical Team,Anita Verma,19,10,17,7,0,4,53.5,4.4,30,false,1,71,38,37,On Track
+2026-05-01,Sanjay Patel,Billing Team,Rahul Kumar,20,13,22,4,1,5,70.2,4.5,37,false,2,75,47,40,On Track
+2026-05-02,Neha Rao,Refund Team,Priya Singh,21,16,27,1,2,2,10.8,4.6,44,false,0,79,56,42,On Track
+2026-05-03,Vikram Iyer,Security Team,Arjun Das,22,5,9,2,4,0,23.3,4.7,51,false,4,83,65,25,On Track
+2026-05-04,Meera Nair,Customer Success Team,Simran Kaur,23,8,14,11,4,1,38,4.8,58,true,0,87,74,31,On Track
+2026-05-05,Sanjay Patel,Technical Team,Anita Verma,24,11,19,4,0,2,55,4.9,65,true,1,91,83,35,On Track
+2026-05-06,Neha Rao,Billing Team,Rahul Kumar,25,14,24,1,1,3,39.2,3.2,72,true,1,95,92,38,On Track
+2026-05-07,Vikram Iyer,Refund Team,Priya Singh,26,17,6,2,8,4,53.8,3.3,79,true,2,62,101,12,On Track
+2026-05-08,Meera Nair,Security Team,Arjun Das,8,6,11,6,3,5,70.6,3.4,86,false,3,66,110,44,On Track
+2026-05-09,Sanjay Patel,Customer Success Team,Simran Kaur,9,9,16,4,4,6,89.8,3.5,93,false,4,70,119,47,Needs Review
+2026-05-10,Neha Rao,Technical Team,Anita Verma,10,12,21,1,0,1,15.4,3.6,100,false,0,74,8,49,On Track
+2026-05-11,Vikram Iyer,Billing Team,Rahul Kumar,11,15,26,2,4,2,30.4,3.7,107,false,6,78,17,50,On Track
+2026-05-12,Meera Nair,Refund Team,Priya Singh,12,4,8,10,2,0,25.5,3.8,18,false,0,82,26,33,On Track
+2026-05-13,Sanjay Patel,Security Team,Arjun Das,13,7,13,4,3,1,38.2,3.9,25,false,1,86,35,39,On Track
+2026-05-14,Neha Rao,Customer Success Team,Simran Kaur,14,10,18,1,4,4,52.2,4,32,false,3,90,44,43,On Track
+2026-05-15,Vikram Iyer,Technical Team,Anita Verma,15,13,23,2,8,5,69.3,4.1,39,true,4,94,53,45,On Track
+2026-05-16,Meera Nair,Billing Team,Rahul Kumar,16,16,5,5,1,6,88.6,4.2,46,false,5,98,62,14,Needs Review
+2026-05-17,Sanjay Patel,Refund Team,Priya Singh,17,5,10,4,2,2,7,4.3,53,false,1,65,71,31,On Track
+2026-05-18,Neha Rao,Security Team,Arjun Das,18,8,15,1,3,0,11.2,4.4,60,false,0,69,80,37,On Track
+2026-05-19,Vikram Iyer,Customer Success Team,Simran Kaur,19,11,20,2,4,1,21.8,4.5,67,false,2,73,89,40,On Track
+2026-05-20,Meera Nair,Technical Team,Anita Verma,20,14,25,9,0,2,34.6,4.6,74,false,0,77,98,42,On Track
+2026-05-21,Sanjay Patel,Billing Team,Rahul Kumar,21,17,7,4,1,4,49.8,4.7,81,false,4,81,107,16,On Track
+2026-05-22,Neha Rao,Refund Team,Priya Singh,22,6,12,1,2,5,66,4.8,88,false,5,85,116,30,On Track
+2026-05-23,Vikram Iyer,Security Team,Arjun Das,23,9,17,2,8,6,85.6,4.9,95,true,6,89,125,35,Needs Review
+2026-05-24,Meera Nair,Customer Success Team,Simran Kaur,24,12,22,4,4,7,57.7,3.2,102,true,1,93,14,38,Needs Review
+2026-05-25,Sanjay Patel,Technical Team,Anita Verma,25,15,27,4,0,1,6.2,3.3,13,true,1,97,23,40,On Track
+2026-05-26,Neha Rao,Billing Team,Rahul Kumar,26,4,9,1,1,2,16.2,3.4,20,true,0,64,32,23,On Track
+2026-05-27,Vikram Iyer,Refund Team,Priya Singh,8,7,14,2,4,0,29.3,3.5,27,false,4,68,41,48,On Track
+2026-05-28,Meera Nair,Security Team,Arjun Das,9,10,19,8,3,1,44.6,3.6,34,false,0,72,50,50,On Track
+2026-05-29,Sanjay Patel,Customer Success Team,Simran Kaur,10,13,24,4,4,5,62.2,3.7,41,false,6,76,59,51,On Track
+2026-05-30,Neha Rao,Technical Team,Anita Verma,11,16,6,1,0,6,43.4,3.8,48,false,1,80,68,18,Needs Review
+2026-05-31,Vikram Iyer,Billing Team,Rahul Kumar,12,5,11,2,8,7,58.6,3.9,55,true,2,84,77,39,Needs Review
+2026-05-01,Meera Nair,Refund Team,Priya Singh,13,8,16,12,2,8,76,4,62,false,3,88,86,43,Needs Review
+2026-05-02,Sanjay Patel,Security Team,Arjun Das,14,11,21,4,3,2,9.8,4.1,69,false,4,92,95,46,On Track
+2026-05-03,Neha Rao,Customer Success Team,Simran Kaur,15,14,26,1,4,1,22,4.2,76,false,0,96,104,47,On Track
+2026-05-04,Vikram Iyer,Technical Team,Anita Verma,16,17,8,2,4,2,37.6,4.3,83,false,6,63,113,20,On Track
+2026-05-05,Meera Nair,Billing Team,Rahul Kumar,17,6,13,7,1,0,29.7,4.4,90,false,0,67,122,36,On Track
+2026-05-06,Sanjay Patel,Refund Team,Priya Singh,18,9,18,4,2,6,43,4.5,97,false,2,71,11,40,Needs Review
+2026-05-07,Neha Rao,Security Team,Arjun Das,19,12,23,1,3,7,57.6,4.6,104,false,3,75,20,43,Needs Review
+2026-05-08,Vikram Iyer,Customer Success Team,Simran Kaur,20,15,5,2,8,8,75.3,4.7,15,true,4,79,29,13,Needs Review
+2026-05-09,Meera Nair,Technical Team,Anita Verma,21,4,10,11,0,2,95.2,4.8,22,false,5,83,38,29,On Track
+2026-05-10,Sanjay Patel,Billing Team,Rahul Kumar,22,7,15,4,1,2,14.2,4.9,29,false,1,87,47,34,On Track
+2026-05-11,Neha Rao,Refund Team,Priya Singh,23,10,20,1,2,4,15.4,3.2,36,true,1,91,56,38,On Track
+2026-05-12,Vikram Iyer,Security Team,Arjun Das,24,13,25,2,4,1,26.6,3.3,43,true,2,95,65,40,On Track
+2026-05-13,Meera Nair,Customer Success Team,Simran Kaur,25,16,7,6,4,2,40,3.4,50,true,0,62,74,15,On Track
+2026-05-14,Sanjay Patel,Technical Team,Anita Verma,26,5,12,4,0,7,55.8,3.5,57,true,4,66,83,28,Needs Review
+2026-05-15,Neha Rao,Billing Team,Rahul Kumar,8,8,17,1,1,8,72.6,3.6,64,false,5,70,92,52,Needs Review
+2026-05-16,Vikram Iyer,Refund Team,Priya Singh,9,11,22,2,8,2,92.8,3.7,71,true,6,74,101,52,On Track
+2026-05-17,Meera Nair,Security Team,Arjun Das,10,14,27,10,3,3,61.9,3.8,78,false,1,78,110,53,On Track
+2026-05-18,Sanjay Patel,Customer Success Team,Simran Kaur,11,17,9,4,4,1,11,3.9,85,false,1,82,119,24,On Track
+2026-05-19,Neha Rao,Technical Team,Anita Verma,12,6,14,1,0,2,21.6,4,92,false,0,86,8,44,On Track
+2026-05-20,Vikram Iyer,Billing Team,Rahul Kumar,13,9,19,2,4,6,35.3,4.1,99,false,4,90,17,46,Needs Review
+2026-05-21,Meera Nair,Refund Team,Priya Singh,14,12,24,5,2,1,51.2,4.2,106,false,0,94,26,48,On Track
+2026-05-22,Sanjay Patel,Security Team,Arjun Das,15,15,6,4,3,8,69.4,4.3,17,false,6,98,35,17,Needs Review
+2026-05-23,Neha Rao,Customer Success Team,Simran Kaur,16,4,11,1,4,2,47.6,4.4,24,false,1,65,44,35,On Track
+2026-05-24,Vikram Iyer,Technical Team,Anita Verma,17,7,16,2,8,3,63.4,4.5,31,true,2,69,53,40,On Track
+2026-05-25,Meera Nair,Billing Team,Rahul Kumar,18,10,21,9,1,2,4,4.6,38,false,0,73,62,43,On Track
+2026-05-26,Sanjay Patel,Refund Team,Priya Singh,19,13,26,4,2,0,15.8,4.7,45,false,1,77,71,45,On Track
+2026-05-27,Neha Rao,Security Team,Arjun Das,20,16,8,1,3,1,28.6,4.8,52,false,0,81,80,18,On Track
+2026-05-28,Vikram Iyer,Customer Success Team,Simran Kaur,21,5,13,2,4,2,44.8,4.9,59,false,6,85,89,33,On Track
+2026-05-29,Meera Nair,Technical Team,Anita Verma,22,8,18,4,0,8,33.9,3.2,66,false,1,89,98,38,Needs Review
+2026-05-30,Sanjay Patel,Billing Team,Rahul Kumar,23,11,23,4,1,2,47.8,3.3,73,true,2,93,107,40,On Track
+2026-05-31,Neha Rao,Refund Team,Priya Singh,24,14,5,1,2,3,63,3.4,80,true,3,97,116,12,On Track
+2026-05-01,Vikram Iyer,Security Team,Arjun Das,25,17,10,2,8,4,81.3,3.5,87,true,4,64,125,19,On Track
+2026-05-02,Meera Nair,Customer Success Team,Simran Kaur,26,6,15,8,4,1,7.2,3.6,94,true,0,68,14,32,On Track
+2026-05-03,Sanjay Patel,Technical Team,Anita Verma,8,9,20,4,0,2,21.4,3.7,101,false,1,72,23,54,On Track
+2026-05-04,Neha Rao,Billing Team,Rahul Kumar,9,12,25,1,1,0,19.6,3.8,12,false,0,76,32,54,On Track
+2026-05-05,Vikram Iyer,Refund Team,Priya Singh,10,15,7,2,4,1,31.4,3.9,19,false,2,80,41,22,On Track
+2026-05-06,Meera Nair,Security Team,Arjun Das,11,4,12,12,3,2,45.4,4,26,false,3,84,50,44,On Track
+2026-05-07,Sanjay Patel,Customer Success Team,Simran Kaur,12,7,17,4,4,3,61.8,4.1,33,false,4,88,59,47,On Track
+2026-05-08,Neha Rao,Technical Team,Anita Verma,13,10,22,1,0,4,79.2,4.2,40,false,5,92,68,49,On Track
+2026-05-09,Vikram Iyer,Billing Team,Rahul Kumar,14,13,27,2,8,5,100,4.3,47,true,6,96,77,50,On Track
+2026-05-10,Meera Nair,Refund Team,Priya Singh,15,16,9,7,2,0,5.9,4.4,54,false,0,63,86,23,On Track
+2026-05-11,Sanjay Patel,Security Team,Arjun Das,16,5,14,4,3,1,15.8,4.5,61,false,1,67,95,40,On Track
+2026-05-12,Neha Rao,Customer Success Team,Simran Kaur,17,8,19,1,4,2,27,4.6,68,false,0,71,104,43,On Track
+2026-05-13,Vikram Iyer,Technical Team,Anita Verma,18,11,24,2,4,0,41.3,4.7,75,false,4,75,113,45,On Track
+2026-05-14,Meera Nair,Billing Team,Rahul Kumar,19,14,6,11,1,3,57.8,4.8,82,false,5,79,122,15,On Track
+2026-05-15,Sanjay Patel,Refund Team,Priya Singh,20,17,11,4,2,4,76.6,4.9,89,false,6,83,11,23,On Track
+2026-05-16,Neha Rao,Security Team,Arjun Das,21,6,16,1,3,5,51.8,3.2,96,false,1,87,20,37,On Track
+2026-05-17,Vikram Iyer,Customer Success Team,Simran Kaur,22,9,21,2,8,6,68.2,3.3,103,true,2,91,29,40,Needs Review
+2026-05-18,Meera Nair,Technical Team,Anita Verma,23,12,26,6,0,2,9.4,3.4,14,true,0,95,38,43,On Track
+2026-05-19,Sanjay Patel,Billing Team,Rahul Kumar,24,15,8,4,1,0,21.8,3.5,21,true,1,62,47,17,On Track
+2026-05-20,Neha Rao,Refund Team,Priya Singh,25,4,13,1,2,1,35.2,3.6,28,true,0,66,56,31,On Track
+2026-05-21,Vikram Iyer,Security Team,Arjun Das,26,7,18,2,4,2,52,3.7,35,true,6,70,65,35,On Track
+2026-05-22,Meera Nair,Customer Success Team,Simran Kaur,8,10,23,10,4,4,38.1,3.8,42,false,1,74,74,56,On Track
+2026-05-23,Sanjay Patel,Technical Team,Anita Verma,9,13,5,4,0,5,52.6,3.9,49,false,2,78,83,19,On Track
+2026-05-24,Neha Rao,Billing Team,Rahul Kumar,10,16,10,1,1,6,68.4,4,56,false,3,82,92,28,Needs Review
+2026-05-25,Vikram Iyer,Refund Team,Priya Singh,11,5,15,2,8,7,87.3,4.1,63,true,4,86,101,48,Needs Review
+2026-05-26,Meera Nair,Security Team,Arjun Das,12,8,20,5,3,1,13.8,4.2,70,false,0,90,110,50,On Track
+2026-05-27,Sanjay Patel,Customer Success Team,Simran Kaur,13,11,25,4,4,2,28.6,4.3,77,false,1,94,119,51,On Track
+2026-05-28,Neha Rao,Technical Team,Anita Verma,14,14,7,1,0,0,23.8,4.4,84,false,0,98,8,20,On Track
+2026-05-29,Vikram Iyer,Billing Team,Rahul Kumar,15,17,12,2,4,1,36.2,4.5,91,false,2,65,17,27,On Track
+2026-05-30,Meera Nair,Refund Team,Priya Singh,16,6,17,9,2,5,50.8,4.6,98,false,3,69,26,44,On Track
+2026-05-31,Sanjay Patel,Security Team,Arjun Das,17,9,22,4,3,6,67.8,4.7,105,false,4,73,35,46,Needs Review
+2026-05-01,Neha Rao,Customer Success Team,Simran Kaur,18,12,27,1,4,7,85.8,4.8,16,false,5,77,44,47,Needs Review
+2026-05-02,Vikram Iyer,Technical Team,Anita Verma,19,15,9,2,8,8,107.2,4.9,23,true,6,81,53,21,Needs Review
+2026-05-03,Meera Nair,Billing Team,Rahul Kumar,20,4,14,4,1,2,10.1,3.2,30,false,1,85,62,37,On Track
+2026-05-04,Sanjay Patel,Refund Team,Priya Singh,21,7,19,4,2,1,20.6,3.3,37,false,1,89,71,40,On Track
+2026-05-05,Neha Rao,Security Team,Arjun Das,22,10,24,1,3,2,32.4,3.4,44,false,0,93,80,43,On Track
+2026-05-06,Vikram Iyer,Customer Success Team,Simran Kaur,23,13,6,2,4,0,47.3,3.5,51,true,4,97,89,14,On Track
+2026-05-07,Meera Nair,Technical Team,Anita Verma,24,16,11,8,0,6,64.4,3.6,58,true,5,64,98,22,Needs Review
+2026-05-08,Sanjay Patel,Billing Team,Rahul Kumar,25,5,16,4,1,7,83.8,3.7,65,true,6,68,107,35,Needs Review
+2026-05-09,Neha Rao,Refund Team,Priya Singh,26,8,21,1,2,8,56,3.8,72,true,1,72,116,38,Needs Review
+2026-05-10,Vikram Iyer,Security Team,Arjun Das,8,11,26,2,8,1,4.2,3.9,79,true,2,76,125,58,On Track
+2026-05-11,Meera Nair,Customer Success Team,Simran Kaur,9,14,8,12,4,2,14.8,4,86,false,0,80,14,26,On Track
+2026-05-12,Sanjay Patel,Technical Team,Anita Verma,10,17,13,4,0,4,27.8,4.1,93,false,4,84,23,33,On Track
+2026-05-13,Neha Rao,Billing Team,Rahul Kumar,11,6,18,1,1,1,41.8,4.2,100,false,0,88,32,51,On Track
+2026-05-14,Vikram Iyer,Refund Team,Priya Singh,12,9,23,2,4,6,59.2,4.3,107,false,6,92,41,52,Needs Review
+2026-05-15,Meera Nair,Security Team,Arjun Das,13,12,5,7,3,7,42.3,4.4,18,false,1,96,50,17,Needs Review
+2026-05-16,Sanjay Patel,Customer Success Team,Simran Kaur,14,15,10,4,4,8,57.4,4.5,25,false,2,63,59,26,Needs Review
+2026-05-17,Neha Rao,Technical Team,Anita Verma,15,4,15,1,0,2,73.8,4.6,32,false,3,67,68,44,On Track
+2026-05-18,Vikram Iyer,Billing Team,Rahul Kumar,16,7,20,2,8,0,7.3,4.7,39,true,4,71,77,47,On Track
+2026-05-19,Meera Nair,Refund Team,Priya Singh,17,10,25,11,2,1,20.4,4.8,46,false,0,75,86,48,On Track
+2026-05-20,Sanjay Patel,Security Team,Arjun Das,18,13,7,4,3,2,35.8,4.9,53,false,1,79,95,18,On Track
+2026-05-21,Neha Rao,Customer Success Team,Simran Kaur,19,16,12,1,4,6,28,3.2,60,false,1,83,104,26,Needs Review
+2026-05-22,Vikram Iyer,Technical Team,Anita Verma,20,5,17,2,4,7,41,3.3,67,false,2,87,113,40,Needs Review
+2026-05-23,Meera Nair,Billing Team,Rahul Kumar,21,8,22,6,1,8,56.2,3.4,74,false,3,91,122,43,Needs Review
+2026-05-24,Sanjay Patel,Refund Team,Priya Singh,22,11,27,4,2,2,73.8,3.5,81,false,4,95,11,45,On Track
+2026-05-25,Neha Rao,Security Team,Arjun Das,23,14,9,1,3,3,92.4,3.6,88,true,5,62,20,20,On Track
+2026-05-26,Vikram Iyer,Customer Success Team,Simran Kaur,24,17,14,2,8,2,11.2,3.7,95,true,6,66,29,25,On Track
+2026-05-27,Meera Nair,Technical Team,Anita Verma,25,6,19,10,0,0,14.3,3.8,102,true,0,70,38,38,On Track
+2026-05-28,Sanjay Patel,Billing Team,Rahul Kumar,26,9,24,4,1,1,25.4,3.9,13,true,1,74,47,41,On Track
+2026-05-29,Neha Rao,Refund Team,Priya Singh,8,12,6,1,2,2,37.8,4,20,false,0,78,56,23,On Track
+2026-05-30,Vikram Iyer,Security Team,Arjun Das,9,15,11,2,4,8,53.3,4.1,27,false,4,82,65,31,Needs Review
+2026-05-31,Meera Nair,Customer Success Team,Simran Kaur,10,4,16,5,4,2,71,4.2,34,false,5,86,74,53,On Track
+2026-05-01,Sanjay Patel,Technical Team,Anita Verma,11,7,21,4,0,3,91,4.3,41,false,6,90,83,54,On Track
+2026-05-02,Neha Rao,Billing Team,Rahul Kumar,12,10,26,1,1,4,60.2,4.4,48,false,1,94,92,54,On Track
+2026-05-03,Vikram Iyer,Refund Team,Priya Singh,13,13,8,2,8,1,9,4.5,55,true,2,98,101,24,On Track
+2026-05-04,Meera Nair,Security Team,Arjun Das,14,16,13,9,3,2,20.2,4.6,62,false,0,65,110,30,On Track
+2026-05-05,Sanjay Patel,Customer Success Team,Simran Kaur,15,5,18,4,4,0,33.8,4.7,69,false,1,69,119,47,On Track
+2026-05-06,Neha Rao,Technical Team,Anita Verma,16,8,23,1,0,1,48.4,4.8,76,false,0,73,8,49,On Track
+2026-05-07,Vikram Iyer,Billing Team,Rahul Kumar,17,11,5,2,4,2,66.4,4.9,83,false,6,77,17,15,On Track
+2026-05-08,Meera Nair,Refund Team,Priya Singh,18,14,10,4,2,3,46.5,3.2,90,false,1,81,26,24,On Track
+2026-05-09,Sanjay Patel,Security Team,Arjun Das,19,17,15,4,3,4,62.2,3.3,97,false,2,85,35,29,On Track
+2026-05-10,Neha Rao,Customer Success Team,Simran Kaur,20,6,20,1,4,5,79.2,3.4,104,false,3,89,44,43,On Track
+2026-05-11,Vikram Iyer,Technical Team,Anita Verma,21,9,25,2,8,0,13.3,3.5,15,true,4,93,53,45,On Track
+2026-05-12,Meera Nair,Billing Team,Rahul Kumar,22,12,7,8,1,1,27,3.6,22,false,0,97,62,17,On Track
+2026-05-13,Sanjay Patel,Refund Team,Priya Singh,23,15,12,4,2,2,43,3.7,29,true,1,64,71,24,On Track
+2026-05-14,Neha Rao,Security Team,Arjun Das,24,4,17,1,3,0,32.2,3.8,36,true,0,68,80,38,On Track
+2026-05-15,Vikram Iyer,Customer Success Team,Simran Kaur,25,7,22,2,4,3,45.8,3.9,43,true,2,72,89,41,On Track
+2026-05-16,Meera Nair,Technical Team,Anita Verma,26,10,27,12,0,4,61.6,4,50,true,3,76,98,43,On Track
+2026-05-17,Sanjay Patel,Billing Team,Rahul Kumar,8,13,9,4,1,5,79.8,4.1,57,false,4,80,107,30,On Track
+2026-05-18,Neha Rao,Refund Team,Priya Singh,9,16,14,1,2,1,4.4,4.2,64,false,0,84,116,36,On Track
+2026-05-19,Vikram Iyer,Security Team,Arjun Das,10,5,19,2,8,2,18.4,4.3,71,true,6,88,125,56,On Track
+2026-05-20,Meera Nair,Customer Success Team,Simran Kaur,11,8,24,7,4,0,18.5,4.4,78,false,0,92,14,56,On Track
+2026-05-21,Sanjay Patel,Technical Team,Anita Verma,12,11,6,4,0,1,30.2,4.5,85,false,1,96,23,21,On Track
+2026-05-22,Neha Rao,Billing Team,Rahul Kumar,13,14,11,1,1,2,43.2,4.6,92,false,0,63,32,29,On Track
+2026-05-23,Vikram Iyer,Refund Team,Priya Singh,14,17,16,2,4,4,59.3,4.7,99,false,4,67,41,34,On Track
+2026-05-24,Meera Nair,Security Team,Arjun Das,15,6,21,11,3,5,77.6,4.8,106,false,5,71,50,50,On Track
+2026-05-25,Sanjay Patel,Customer Success Team,Simran Kaur,16,9,26,4,4,6,98.2,4.9,17,false,6,75,59,51,Needs Review
+2026-05-26,Neha Rao,Technical Team,Anita Verma,17,12,8,1,0,7,4.2,3.2,24,false,1,79,68,22,Needs Review
+2026-05-27,Vikram Iyer,Billing Team,Rahul Kumar,18,15,13,2,8,1,13.8,3.3,31,true,2,83,77,28,On Track
+2026-05-28,Meera Nair,Refund Team,Priya Singh,19,4,18,6,2,2,25.6,3.4,38,false,0,87,86,44,On Track
+2026-05-29,Sanjay Patel,Security Team,Arjun Das,20,7,23,4,3,0,39.8,3.5,45,false,1,91,95,46,On Track
+2026-05-30,Neha Rao,Customer Success Team,Simran Kaur,21,10,5,1,4,4,55,3.6,52,false,5,95,104,14,On Track
+2026-05-31,Vikram Iyer,Technical Team,Anita Verma,22,13,10,2,4,5,73.6,3.7,59,false,6,62,113,22,On Track
+2026-05-01,Meera Nair,Billing Team,Rahul Kumar,23,16,15,10,1,6,50.8,3.8,66,true,1,66,122,28,Needs Review
+2026-05-02,Sanjay Patel,Refund Team,Priya Singh,24,5,20,4,2,7,67,3.9,73,true,2,70,11,41,Needs Review
+2026-05-03,Neha Rao,Security Team,Arjun Das,25,8,25,1,3,2,7.2,4,80,true,0,74,20,43,On Track
+2026-05-04,Vikram Iyer,Customer Success Team,Simran Kaur,26,11,7,2,8,2,19.3,4.1,87,true,4,78,29,16,On Track
+2026-05-05,Meera Nair,Technical Team,Anita Verma,8,14,12,5,0,1,33.6,4.2,94,false,0,82,38,35,On Track
+2026-05-06,Sanjay Patel,Billing Team,Rahul Kumar,9,17,17,4,1,2,50.2,4.3,101,false,1,86,47,40,On Track
+2026-05-07,Neha Rao,Refund Team,Priya Singh,10,6,22,1,2,5,36.4,4.4,12,false,1,90,56,58,On Track
+2026-05-08,Vikram Iyer,Security Team,Arjun Das,11,9,27,2,4,6,50.6,4.5,19,false,2,94,65,57,Needs Review
+2026-05-09,Meera Nair,Customer Success Team,Simran Kaur,12,12,9,9,4,7,67,4.6,26,false,3,98,74,27,Needs Review
+2026-05-10,Sanjay Patel,Technical Team,Anita Verma,13,15,14,4,0,8,85.8,4.7,33,false,4,65,83,33,Needs Review
+2026-05-11,Neha Rao,Billing Team,Rahul Kumar,14,4,19,1,1,1,11,4.8,40,false,0,69,92,51,On Track
+2026-05-12,Vikram Iyer,Refund Team,Priya Singh,15,7,24,2,8,2,25.6,4.9,47,true,6,73,101,52,On Track
+2026-05-13,Meera Nair,Security Team,Arjun Das,16,10,6,4,3,4,22.8,3.2,54,false,1,77,110,19,On Track
+2026-05-14,Sanjay Patel,Customer Success Team,Simran Kaur,17,13,11,4,4,1,35,3.3,61,false,1,81,119,27,On Track

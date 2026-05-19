@@ -1,0 +1,201 @@
+report_date,region,product,subscription_type,ticket_volume,revenue_risk_usd,churn_risk_customers,avg_csat,sla_compliance_pct,escalation_rate_pct,avg_resolution_hours,negative_sentiment_pct,top_issue_category,retention_risk_score,support_cost_usd,impacted_accounts,executive_priority,forecast_next_week_tickets,opportunity_value_usd,action_recommendation
+2026-01-01,North America,Web Portal,Free,40,1680,9,2.8,74,12,4,35,Login Issue,37,1200,5,Normal,42,2500,Improve SLA staffing
+2026-02-02,India,Billing Suite,Pro,51,28985,3,3,94,4,27.5,36,Refund Request,100,1517,18,Critical,55,3101,Maintain operating rhythm
+2026-03-03,Middle East,API Gateway,Free,62,1570,4,3.2,93,5,50,10,Security Concern,11,1834,31,Normal,68,3702,Maintain operating rhythm
+2026-04-04,North America,Web Portal,Pro,73,40875,5,3.4,71,15,73.5,11,Bug Report,100,2151,44,Critical,81,4303,Improve SLA staffing
+2026-05-05,India,Billing Suite,Free,84,1940,6,3.6,91,7,10,12,Feature Request,15,2468,57,Normal,95,4904,Maintain operating rhythm
+2026-06-06,Middle East,API Gateway,Pro,95,29725,7,3.8,90,8,33.5,40,Delivery Delay,100,2785,70,Critical,109,5505,Maintain operating rhythm
+2026-07-07,North America,Web Portal,Free,106,2790,15,4,68,18,56,41,Login Issue,47,3102,83,Critical,124,6106,Improve SLA staffing
+2026-08-08,India,Billing Suite,Pro,117,41615,9,4.2,67,19,79.5,15,Refund Request,100,3419,96,Critical,123,6707,Improve SLA staffing
+2026-09-09,Middle East,API Gateway,Free,128,2680,10,4.4,95,3,16,16,Security Concern,14,3736,109,Normal,137,7308,Maintain operating rhythm
+2026-10-10,North America,Web Portal,Pro,139,41985,11,4.6,65,21,39.5,17,Bug Report,100,4053,122,Critical,152,7909,Improve SLA staffing
+2026-11-11,India,Billing Suite,Free,150,3530,19,4.8,64,22,62,45,Feature Request,54,4370,135,Critical,167,8510,Improve SLA staffing
+2026-12-12,Middle East,API Gateway,Pro,161,42355,20,5,63,23,85.5,46,Delivery Delay,100,4687,8,Critical,182,9111,Improve SLA staffing
+2026-01-13,North America,Web Portal,Free,172,3420,2,2.9,91,7,10,20,Login Issue,21,5004,21,Normal,198,9712,Maintain operating rhythm
+2026-02-14,India,Billing Suite,Pro,183,31205,3,3.1,90,8,33.5,21,Refund Request,100,5321,34,Critical,214,10313,Maintain operating rhythm
+2026-03-15,Middle East,API Gateway,Free,194,4270,4,3.3,60,26,56,22,Security Concern,61,5638,47,Critical,204,10914,Improve SLA staffing
+2026-04-16,North America,Web Portal,Pro,205,43095,24,3.5,59,27,79.5,50,Bug Report,100,5955,60,Critical,219,11515,Improve SLA staffing
+2026-05-17,India,Billing Suite,Free,216,4160,6,3.7,95,3,16,51,Feature Request,20,6272,73,High,235,12116,Maintain operating rhythm
+2026-06-18,Middle East,API Gateway,Pro,227,31945,7,3.9,94,4,39.5,25,Delivery Delay,100,6589,86,Critical,252,12717,Maintain operating rhythm
+2026-07-19,North America,Web Portal,Free,238,5010,8,4.1,74,12,62,8,Login Issue,50,6906,99,High,269,13318,Improve SLA staffing
+2026-08-20,India,Billing Suite,Pro,249,43835,9,4.3,73,13,85.5,9,Refund Request,100,7223,112,Critical,286,13919,Improve SLA staffing
+2026-09-21,Middle East,API Gateway,Free,260,4900,10,4.5,91,7,22,55,Security Concern,27,7540,125,High,304,14520,Maintain operating rhythm
+2026-10-22,North America,Web Portal,Pro,271,32685,11,4.7,90,8,45.5,56,Bug Report,100,7857,138,Critical,285,15121,Maintain operating rhythm
+2026-11-23,India,Billing Suite,Free,282,5750,12,4.9,70,16,68,12,Feature Request,57,8174,11,Critical,302,15722,Improve SLA staffing
+2026-12-24,Middle East,API Gateway,Pro,293,44575,13,2.8,69,17,91.5,13,Delivery Delay,100,8491,24,Critical,319,16323,Improve SLA staffing
+2026-01-25,North America,Web Portal,Free,304,5640,2,3,95,3,16,14,Login Issue,26,8808,37,High,337,16924,Maintain operating rhythm
+2026-02-26,India,Billing Suite,Pro,315,28800,3,3.2,94,4,39.5,60,Refund Request,100,9125,50,Critical,356,17525,Maintain operating rhythm
+2026-03-27,Middle East,API Gateway,Free,46,1865,35,3.4,66,20,62,61,Security Concern,45,9442,63,Critical,53,18126,Improve SLA staffing
+2026-04-01,North America,Web Portal,Pro,57,40690,5,3.6,65,21,85.5,17,Bug Report,100,9759,76,Critical,67,18727,Improve SLA staffing
+2026-05-02,India,Billing Suite,Free,68,1755,6,3.8,91,7,22,18,Feature Request,14,10076,89,Normal,71,19328,Maintain operating rhythm
+2026-06-03,Middle East,API Gateway,Pro,79,29540,7,4,90,8,45.5,19,Delivery Delay,100,10393,102,Critical,85,19929,Maintain operating rhythm
+2026-07-04,North America,Web Portal,Free,90,2605,39,4.2,62,24,68,37,Login Issue,52,10710,115,Critical,98,20530,Improve SLA staffing
+2026-08-05,India,Billing Suite,Pro,101,41430,9,4.4,61,25,91.5,38,Refund Request,100,11027,128,Critical,112,21131,Improve SLA staffing
+2026-09-06,Middle East,API Gateway,Free,112,2495,10,4.6,95,3,28,22,Security Concern,13,11344,141,Normal,127,21732,Maintain operating rhythm
+2026-10-07,North America,Web Portal,Pro,123,30280,11,4.8,94,4,51.5,23,Bug Report,100,11661,14,Critical,141,22333,Maintain operating rhythm
+2026-11-08,India,Billing Suite,Free,134,3345,12,5,58,28,74,24,Feature Request,59,11978,27,Critical,157,22934,Improve SLA staffing
+2026-12-09,Middle East,API Gateway,Pro,145,42170,13,2.9,57,29,97.5,42,Delivery Delay,100,12295,40,Critical,152,23535,Improve SLA staffing
+2026-01-10,North America,Web Portal,Free,156,3715,14,3.1,74,12,22,43,Login Issue,45,12612,53,High,167,24136,Improve SLA staffing
+2026-02-11,India,Billing Suite,Pro,167,31020,3,3.3,90,8,45.5,9,Refund Request,100,12929,66,Critical,182,24737,Maintain operating rhythm
+2026-03-12,Middle East,API Gateway,Free,178,4085,4,3.5,72,14,68,10,Security Concern,48,13246,79,High,198,25338,Improve SLA staffing
+2026-04-13,North America,Web Portal,Pro,189,42910,5,3.7,71,15,91.5,11,Bug Report,100,13563,92,Critical,214,25939,Improve SLA staffing
+2026-05-14,India,Billing Suite,Free,200,3975,6,3.9,95,3,28,47,Feature Request,19,13880,105,High,230,26540,Maintain operating rhythm
+2026-06-15,Middle East,API Gateway,Pro,211,31760,7,4.1,94,4,51.5,48,Delivery Delay,100,14197,118,Critical,247,27141,Maintain operating rhythm
+2026-07-16,North America,Web Portal,Free,222,4825,8,4.3,68,18,74,14,Login Issue,55,14514,131,Critical,233,27742,Improve SLA staffing
+2026-08-17,India,Billing Suite,Pro,233,32130,9,4.5,92,6,11.5,15,Refund Request,100,14831,144,Critical,249,28343,Maintain operating rhythm
+2026-09-18,Middle East,API Gateway,Free,244,4715,10,4.7,91,7,34,16,Security Concern,26,15148,17,High,266,28944,Maintain operating rhythm
+2026-10-19,North America,Web Portal,Pro,255,44020,23,4.9,65,21,57.5,52,Bug Report,100,15465,30,Critical,283,29545,Improve SLA staffing
+2026-11-20,India,Billing Suite,Free,266,5565,24,2.8,64,22,80,53,Feature Request,62,15782,43,Critical,301,30146,Improve SLA staffing
+2026-12-21,Middle East,API Gateway,Pro,277,32870,13,3,88,10,17.5,19,Delivery Delay,100,16099,56,Critical,319,30747,Maintain operating rhythm
+2026-01-22,North America,Web Portal,Free,288,5455,2,3.2,95,3,28,20,Login Issue,25,16416,69,High,337,31348,Maintain operating rhythm
+2026-02-23,India,Billing Suite,Pro,299,44760,3,3.4,61,25,51.5,21,Refund Request,100,16733,82,Critical,314,31949,Improve SLA staffing
+2026-03-24,Middle East,API Gateway,Free,310,1680,28,3.6,60,26,74,57,Security Concern,51,17050,95,Critical,332,32550,Improve SLA staffing
+2026-04-25,North America,Web Portal,Pro,41,28985,5,3.8,92,6,11.5,58,Bug Report,100,17367,108,Critical,45,33151,Maintain operating rhythm
+2026-05-26,India,Billing Suite,Free,52,1570,6,4,91,7,34,24,Feature Request,13,17684,121,Normal,58,33752,Maintain operating rhythm
+2026-06-27,Middle East,API Gateway,Pro,63,40875,7,4.2,57,29,57.5,25,Delivery Delay,100,18001,134,Critical,71,34353,Improve SLA staffing
+2026-07-01,North America,Web Portal,Free,74,2420,8,4.4,74,12,80,8,Login Issue,40,18318,7,Normal,85,34954,Improve SLA staffing
+2026-08-02,India,Billing Suite,Pro,85,29725,9,4.6,88,10,17.5,62,Refund Request,100,18635,20,Critical,99,35555,Maintain operating rhythm
+2026-09-03,Middle East,API Gateway,Free,96,2310,10,4.8,95,3,40,35,Security Concern,12,18952,33,Normal,101,36156,Maintain operating rhythm
+2026-10-04,North America,Web Portal,Pro,107,41615,11,5,71,15,63.5,11,Bug Report,100,1269,46,Critical,114,36757,Improve SLA staffing
+2026-11-05,India,Billing Suite,Free,118,3160,12,2.9,70,16,86,12,Feature Request,47,1586,59,Critical,129,37358,Improve SLA staffing
+2026-12-06,Middle East,API Gateway,Pro,129,30465,13,3.1,92,6,23.5,13,Delivery Delay,100,1903,72,Critical,143,37959,Maintain operating rhythm
+2026-01-07,North America,Web Portal,Free,140,3050,2,3.3,91,7,34,39,Login Issue,19,2220,85,Normal,158,38560,Maintain operating rhythm
+2026-02-08,India,Billing Suite,Pro,151,42355,39,3.5,67,19,57.5,40,Refund Request,100,2537,98,Critical,174,39161,Improve SLA staffing
+2026-03-09,Middle East,API Gateway,Free,162,3900,4,3.7,66,20,80,16,Security Concern,54,2854,111,Critical,190,39762,Improve SLA staffing
+2026-04-10,North America,Web Portal,Pro,173,42725,5,3.9,65,21,17.5,17,Bug Report,100,3171,124,Critical,182,40363,Improve SLA staffing
+2026-05-11,India,Billing Suite,Free,184,3790,6,4.1,95,3,40,18,Feature Request,18,3488,137,High,197,40964,Maintain operating rhythm
+2026-06-12,Middle East,API Gateway,Pro,195,43095,12,4.3,63,23,63.5,44,Delivery Delay,100,3805,10,Critical,213,41565,Improve SLA staffing
+2026-07-13,North America,Web Portal,Free,206,4640,13,4.5,62,24,86,45,Login Issue,61,4122,23,Critical,229,42166,Improve SLA staffing
+2026-08-14,India,Billing Suite,Pro,217,31945,9,4.7,92,6,23.5,21,Refund Request,100,4439,36,Critical,245,42767,Maintain operating rhythm
+2026-09-15,Middle East,API Gateway,Free,228,4530,10,4.9,91,7,46,22,Security Concern,25,4756,49,High,262,43368,Maintain operating rhythm
+2026-10-16,North America,Web Portal,Pro,239,43835,11,2.8,59,27,69.5,23,Bug Report,100,5073,62,Critical,280,43969,Improve SLA staffing
+2026-11-17,India,Billing Suite,Free,250,5380,17,3,58,28,92,49,Feature Request,68,5390,75,Critical,263,44570,Improve SLA staffing
+2026-12-18,Middle East,API Gateway,Pro,261,32685,13,3.2,88,10,29.5,50,Delivery Delay,100,5707,88,Critical,279,45171,Maintain operating rhythm
+2026-01-19,North America,Web Portal,Free,272,5750,2,3.4,74,12,40,8,Login Issue,53,6024,101,High,296,45772,Improve SLA staffing
+2026-02-20,India,Billing Suite,Pro,283,44575,3,3.6,73,13,63.5,9,Refund Request,100,6341,114,Critical,314,46373,Improve SLA staffing
+2026-03-21,Middle East,API Gateway,Free,294,6120,4,3.8,72,14,86,10,Security Concern,56,6658,127,Critical,332,46974,Improve SLA staffing
+2026-04-22,North America,Web Portal,Pro,305,28800,5,4,92,6,23.5,54,Bug Report,100,6975,140,Critical,351,2575,Maintain operating rhythm
+2026-05-23,India,Billing Suite,Free,316,1385,6,4.2,91,7,46,55,Feature Request,13,7292,13,Normal,370,3176,Maintain operating rhythm
+2026-06-24,Middle East,API Gateway,Pro,47,40690,7,4.4,69,17,69.5,13,Delivery Delay,100,7609,26,Critical,49,3777,Improve SLA staffing
+2026-07-25,North America,Web Portal,Free,58,2235,8,4.6,68,18,92,14,Login Issue,45,7926,39,Critical,62,4378,Improve SLA staffing
+2026-08-26,India,Billing Suite,Pro,69,29540,9,4.8,88,10,29.5,15,Refund Request,100,8243,52,Critical,75,4979,Maintain operating rhythm
+2026-09-27,Middle East,API Gateway,Free,80,2125,10,5,95,3,52,59,Security Concern,12,8560,65,Normal,89,5580,Maintain operating rhythm
+2026-10-01,North America,Web Portal,Pro,91,41430,28,2.9,65,21,75.5,60,Bug Report,100,8877,78,Critical,103,6181,Improve SLA staffing
+2026-11-02,India,Billing Suite,Free,102,2975,12,3.1,64,22,98,18,Feature Request,52,9194,91,Critical,117,6782,Improve SLA staffing
+2026-12-03,Middle East,API Gateway,Pro,113,30280,13,3.3,92,6,35.5,19,Delivery Delay,100,9511,104,Critical,132,7383,Maintain operating rhythm
+2026-01-04,North America,Web Portal,Free,124,2865,2,3.5,91,7,46,20,Login Issue,18,9828,117,Normal,130,7984,Maintain operating rhythm
+2026-02-05,India,Billing Suite,Pro,135,42170,32,3.7,61,25,69.5,36,Refund Request,100,10145,130,Critical,144,8585,Improve SLA staffing
+2026-03-06,Middle East,API Gateway,Free,146,3235,4,3.9,89,9,6,37,Security Concern,22,10462,143,Normal,159,9186,Maintain operating rhythm
+2026-04-07,North America,Web Portal,Pro,157,31020,5,4.1,88,10,29.5,23,Bug Report,100,10779,16,Critical,174,9787,Maintain operating rhythm
+2026-05-08,India,Billing Suite,Free,168,3605,6,4.3,95,3,52,24,Feature Request,17,11096,29,High,190,10388,Maintain operating rhythm
+2026-06-09,Middle East,API Gateway,Pro,179,42910,7,4.5,57,29,75.5,25,Delivery Delay,100,11413,42,Critical,206,10989,Improve SLA staffing
+2026-07-10,North America,Web Portal,Free,190,4455,37,4.7,74,12,12,41,Login Issue,48,11730,55,High,222,11590,Improve SLA staffing
+2026-08-11,India,Billing Suite,Pro,201,31760,9,4.9,92,6,35.5,42,Refund Request,100,12047,68,Critical,211,12191,Maintain operating rhythm
+2026-09-12,Middle East,API Gateway,Free,212,4825,10,2.8,72,14,58,10,Security Concern,51,12364,81,High,227,12792,Improve SLA staffing
+2026-10-13,North America,Web Portal,Pro,223,43650,11,3,71,15,81.5,11,Bug Report,100,12681,94,Critical,243,13393,Improve SLA staffing
+2026-11-14,India,Billing Suite,Free,234,4715,12,3.2,89,9,18,12,Feature Request,28,12998,107,High,260,13994,Maintain operating rhythm
+2026-12-15,Middle East,API Gateway,Pro,245,32500,13,3.4,88,10,41.5,46,Delivery Delay,100,13315,120,Critical,277,14595,Maintain operating rhythm
+2026-01-16,North America,Web Portal,Free,256,5565,12,3.6,68,18,52,47,Login Issue,58,13632,133,Critical,294,15196,Improve SLA staffing
+2026-02-17,India,Billing Suite,Pro,267,44390,3,3.8,67,19,75.5,15,Refund Request,100,13949,6,Critical,312,15797,Improve SLA staffing
+2026-03-18,Middle East,API Gateway,Free,278,5455,4,4,93,5,12,16,Security Concern,27,14266,19,High,292,16398,Maintain operating rhythm
+2026-04-19,North America,Web Portal,Pro,289,44760,5,4.2,65,21,35.5,17,Bug Report,100,14583,32,Critical,309,16999,Improve SLA staffing
+2026-05-20,India,Billing Suite,Free,300,1680,16,4.4,64,22,58,51,Feature Request,47,14900,45,Critical,327,17600,Improve SLA staffing
+2026-06-21,Middle East,API Gateway,Pro,311,40505,17,4.6,63,23,81.5,52,Delivery Delay,100,15217,58,Critical,345,18201,Improve SLA staffing
+2026-07-22,North America,Web Portal,Free,42,1570,8,4.8,89,9,18,20,Login Issue,15,15534,71,Normal,47,18802,Maintain operating rhythm
+2026-08-23,India,Billing Suite,Pro,53,29355,9,5,88,10,41.5,21,Refund Request,100,15851,84,Critical,61,19403,Maintain operating rhythm
+2026-09-24,Middle East,API Gateway,Free,64,2420,10,2.9,60,26,64,22,Security Concern,54,16168,97,Critical,75,20004,Improve SLA staffing
+2026-10-25,North America,Web Portal,Pro,75,41245,21,3.1,59,27,87.5,56,Bug Report,100,16485,110,Critical,79,20605,Improve SLA staffing
+2026-11-26,India,Billing Suite,Free,86,2310,12,3.3,93,5,24,57,Feature Request,14,16802,123,Normal,92,21206,Maintain operating rhythm
+2026-12-27,Middle East,API Gateway,Pro,97,30095,13,3.5,92,6,47.5,25,Delivery Delay,100,17119,136,Critical,106,21807,Maintain operating rhythm
+2026-01-01,North America,Web Portal,Free,108,3160,2,3.7,74,12,58,8,Login Issue,43,17436,9,Normal,120,22408,Improve SLA staffing
+2026-02-02,India,Billing Suite,Pro,119,41985,3,3.9,73,13,81.5,9,Refund Request,100,17753,22,Critical,134,23009,Improve SLA staffing
+2026-03-03,Middle East,API Gateway,Free,130,3050,4,4.1,89,9,18,61,Security Concern,21,18070,35,Normal,150,23610,Maintain operating rhythm
+2026-04-04,North America,Web Portal,Pro,141,30835,5,4.3,88,10,41.5,62,Bug Report,100,18387,48,Critical,165,24211,Maintain operating rhythm
+2026-05-05,India,Billing Suite,Free,152,3900,6,4.5,70,16,64,12,Feature Request,50,18704,61,Critical,160,24812,Improve SLA staffing
+2026-06-06,Middle East,API Gateway,Pro,163,42725,7,4.7,69,17,87.5,13,Delivery Delay,100,19021,74,Critical,174,25413,Improve SLA staffing
+2026-07-07,North America,Web Portal,Free,174,3790,8,4.9,93,5,24,14,Login Issue,20,1338,87,High,190,26014,Maintain operating rhythm
+2026-08-08,India,Billing Suite,Pro,185,31575,9,2.8,92,6,47.5,38,Refund Request,100,1655,100,Critical,205,26615,Maintain operating rhythm
+2026-09-09,Middle East,API Gateway,Free,196,4640,32,3,66,20,70,39,Security Concern,57,1972,113,Critical,221,27216,Improve SLA staffing
+2026-10-10,North America,Web Portal,Pro,207,43465,11,3.2,65,21,93.5,17,Bug Report,100,2289,126,Critical,238,27817,Improve SLA staffing
+2026-11-11,India,Billing Suite,Free,218,4530,12,3.4,89,9,30,18,Feature Request,27,2606,139,High,255,28418,Maintain operating rhythm
+2026-12-12,Middle East,API Gateway,Pro,229,32315,13,3.6,88,10,53.5,19,Delivery Delay,100,2923,12,Critical,240,29019,Maintain operating rhythm
+2026-01-13,North America,Web Portal,Free,240,5380,36,3.8,62,24,64,43,Login Issue,64,3240,25,Critical,257,29620,Improve SLA staffing
+2026-02-14,India,Billing Suite,Pro,251,44205,37,4,61,25,87.5,44,Refund Request,100,3557,38,Critical,274,30221,Improve SLA staffing
+2026-03-15,Middle East,API Gateway,Free,262,5270,4,4.2,93,5,24,22,Security Concern,26,3874,51,High,291,30822,Maintain operating rhythm
+2026-04-16,North America,Web Portal,Pro,273,33055,5,4.4,92,6,47.5,23,Bug Report,100,4191,64,Critical,308,31423,Maintain operating rhythm
+2026-05-17,India,Billing Suite,Free,284,6120,6,4.6,58,28,70,24,Feature Request,70,4508,77,Critical,327,32024,Improve SLA staffing
+2026-06-18,Middle East,API Gateway,Pro,295,40320,10,4.8,57,29,93.5,48,Delivery Delay,100,4825,90,Critical,345,32625,Improve SLA staffing
+2026-07-19,North America,Web Portal,Free,306,1865,11,5,74,12,30,49,Login Issue,37,5142,103,Normal,321,33226,Improve SLA staffing
+2026-08-20,India,Billing Suite,Pro,317,29170,9,2.9,88,10,53.5,9,Refund Request,100,5459,116,Critical,339,33827,Maintain operating rhythm
+2026-09-21,Middle East,API Gateway,Free,48,2235,10,3.1,72,14,76,10,Security Concern,41,5776,129,Normal,52,34428,Improve SLA staffing
+2026-10-22,North America,Web Portal,Pro,59,29540,11,3.3,94,4,13.5,11,Bug Report,100,6093,142,Critical,65,35029,Maintain operating rhythm
+2026-11-23,India,Billing Suite,Free,70,2125,12,3.5,93,5,36,53,Feature Request,14,6410,15,Normal,79,35630,Maintain operating rhythm
+2026-12-24,Middle East,API Gateway,Pro,81,41430,16,3.7,69,17,59.5,54,Delivery Delay,100,6727,28,Critical,93,36231,Improve SLA staffing
+2026-01-25,North America,Web Portal,Free,92,2975,2,3.9,68,18,70,14,Login Issue,48,7044,41,Critical,108,36832,Improve SLA staffing
+2026-02-26,India,Billing Suite,Pro,103,30280,3,4.1,90,8,7.5,15,Refund Request,100,7361,54,Critical,108,37433,Maintain operating rhythm
+2026-03-27,Middle East,API Gateway,Free,114,2865,4,4.3,89,9,30,16,Security Concern,20,7678,67,Normal,122,38034,Maintain operating rhythm
+2026-04-01,North America,Web Portal,Pro,125,42170,20,4.5,65,21,53.5,58,Bug Report,100,7995,80,Critical,136,38635,Improve SLA staffing
+2026-05-02,India,Billing Suite,Free,136,3715,21,4.7,64,22,76,59,Feature Request,55,8312,93,Critical,151,39236,Improve SLA staffing
+2026-06-03,Middle East,API Gateway,Pro,147,31020,7,4.9,94,4,13.5,19,Delivery Delay,100,8629,106,Critical,166,39837,Maintain operating rhythm
+2026-07-04,North America,Web Portal,Free,158,3605,8,2.8,93,5,36,20,Login Issue,19,8946,119,High,182,40438,Maintain operating rhythm
+2026-08-05,India,Billing Suite,Pro,169,42910,9,3,61,25,59.5,21,Refund Request,100,9263,132,Critical,198,41039,Improve SLA staffing
+2026-09-06,Middle East,API Gateway,Free,180,4455,25,3.2,60,26,82,35,Security Concern,62,9580,5,Critical,189,41640,Improve SLA staffing
+2026-10-07,North America,Web Portal,Pro,191,31760,11,3.4,90,8,19.5,36,Bug Report,100,9897,18,Critical,204,42241,Maintain operating rhythm
+2026-11-08,India,Billing Suite,Free,202,4345,12,3.6,89,9,42,24,Feature Request,26,10214,31,High,220,42842,Maintain operating rhythm
+2026-12-09,Middle East,API Gateway,Pro,213,43650,13,3.8,57,29,65.5,25,Delivery Delay,100,10531,44,Critical,236,43443,Improve SLA staffing
+2026-01-10,North America,Web Portal,Free,224,5195,2,4,74,12,76,8,Login Issue,51,10848,57,High,253,44044,Improve SLA staffing
+2026-02-11,India,Billing Suite,Pro,235,32500,3,4.2,94,4,13.5,40,Refund Request,100,11165,70,Critical,270,44645,Maintain operating rhythm
+2026-03-12,Middle East,API Gateway,Free,246,5085,4,4.4,93,5,36,41,Security Concern,25,11482,83,High,288,45246,Maintain operating rhythm
+2026-04-13,North America,Web Portal,Pro,257,44390,5,4.6,71,15,59.5,11,Bug Report,100,11799,96,Critical,270,45847,Improve SLA staffing
+2026-05-14,India,Billing Suite,Free,268,5935,6,4.8,70,16,82,12,Feature Request,58,12116,109,Critical,287,46448,Improve SLA staffing
+2026-06-15,Middle East,API Gateway,Pro,279,33240,7,5,90,8,19.5,13,Delivery Delay,100,12433,122,Critical,304,47049,Maintain operating rhythm
+2026-07-16,North America,Web Portal,Free,290,1680,35,2.9,68,18,10,45,Login Issue,43,12750,135,Critical,322,2650,Improve SLA staffing
+2026-08-17,India,Billing Suite,Pro,301,28985,9,3.1,88,10,33.5,46,Refund Request,100,13067,8,Critical,340,3251,Maintain operating rhythm
+2026-09-18,Middle East,API Gateway,Free,312,1570,10,3.3,95,3,56,16,Security Concern,9,13384,21,Normal,359,3852,Maintain operating rhythm
+2026-10-19,North America,Web Portal,Pro,43,40875,11,3.5,65,21,79.5,17,Bug Report,100,13701,34,Critical,50,4453,Improve SLA staffing
+2026-11-20,India,Billing Suite,Free,54,1940,12,3.7,93,5,16,18,Feature Request,13,14018,47,Normal,57,5054,Maintain operating rhythm
+2026-12-21,Middle East,API Gateway,Pro,65,29725,13,3.9,92,6,39.5,50,Delivery Delay,100,14335,60,Critical,70,5655,Maintain operating rhythm
+2026-01-22,North America,Web Portal,Free,76,2790,10,4.1,62,24,50,51,Login Issue,53,14652,73,Critical,83,6256,Improve SLA staffing
+2026-02-23,India,Billing Suite,Pro,87,41615,3,4.3,61,25,73.5,21,Refund Request,100,14969,86,Critical,97,6857,Improve SLA staffing
+2026-03-24,Middle East,API Gateway,Free,98,2680,4,4.5,89,9,10,22,Security Concern,20,15286,99,Normal,111,7458,Maintain operating rhythm
+2026-04-25,North America,Web Portal,Pro,109,41985,5,4.7,59,27,33.5,23,Bug Report,100,15603,112,Critical,125,8059,Improve SLA staffing
+2026-05-26,India,Billing Suite,Free,120,3530,14,4.9,58,28,56,55,Feature Request,60,15920,125,Critical,140,8660,Improve SLA staffing
+2026-06-27,Middle East,API Gateway,Pro,131,42355,15,2.8,57,29,79.5,56,Delivery Delay,100,16237,138,Critical,138,9261,Improve SLA staffing
+2026-07-01,North America,Web Portal,Free,142,3420,8,3,93,5,16,8,Login Issue,19,16554,11,Normal,152,9862,Maintain operating rhythm
+2026-08-02,India,Billing Suite,Pro,153,31205,9,3.2,92,6,39.5,9,Refund Request,100,16871,24,Critical,167,10463,Maintain operating rhythm
+2026-09-03,Middle East,API Gateway,Free,164,4270,10,3.4,72,14,62,10,Security Concern,49,17188,37,High,182,11064,Improve SLA staffing
+2026-10-04,North America,Web Portal,Pro,175,43095,19,3.6,71,15,85.5,60,Bug Report,100,17505,50,Critical,198,11665,Improve SLA staffing
+2026-11-05,India,Billing Suite,Free,186,4160,12,3.8,89,9,22,61,Feature Request,26,17822,63,High,214,12266,Maintain operating rhythm
+2026-12-06,Middle East,API Gateway,Pro,197,31945,13,4,88,10,45.5,13,Delivery Delay,100,18139,76,Critical,230,12867,Maintain operating rhythm
+2026-01-07,North America,Web Portal,Free,208,5010,2,4.2,68,18,56,14,Login Issue,56,18456,89,Critical,218,13468,Improve SLA staffing
+2026-02-08,India,Billing Suite,Pro,219,43835,3,4.4,67,19,79.5,15,Refund Request,100,18773,102,Critical,234,14069,Improve SLA staffing
+2026-03-09,Middle East,API Gateway,Free,230,4900,4,4.6,93,5,16,37,Security Concern,25,19090,115,High,251,14670,Maintain operating rhythm
+2026-04-10,North America,Web Portal,Pro,241,32685,5,4.8,92,6,39.5,38,Bug Report,100,1407,128,Critical,268,15271,Maintain operating rhythm
+2026-05-11,India,Billing Suite,Free,252,5750,6,5,64,22,62,18,Feature Request,63,1724,141,Critical,285,15872,Improve SLA staffing
+2026-06-12,Middle East,API Gateway,Pro,263,44575,7,2.9,63,23,85.5,19,Delivery Delay,100,2041,14,Critical,302,16473,Improve SLA staffing
+2026-07-13,North America,Web Portal,Free,274,5640,8,3.1,89,9,22,20,Login Issue,32,2358,27,High,321,17074,Maintain operating rhythm
+2026-08-14,India,Billing Suite,Pro,285,28800,9,3.3,88,10,45.5,42,Refund Request,100,2675,40,Critical,299,17675,Maintain operating rhythm
+2026-09-15,Middle East,API Gateway,Free,296,1865,30,3.5,60,26,68,43,Security Concern,51,2992,53,Critical,317,18276,Improve SLA staffing
+2026-10-16,North America,Web Portal,Pro,307,40690,11,3.7,59,27,91.5,23,Bug Report,100,3309,66,Critical,335,18877,Improve SLA staffing
+2026-11-17,India,Billing Suite,Free,318,1755,12,3.9,93,5,28,24,Feature Request,12,3626,79,Normal,353,19478,Maintain operating rhythm
+2026-12-18,Middle East,API Gateway,Pro,49,29540,13,4.1,92,6,51.5,25,Delivery Delay,100,3943,92,Critical,55,20079,Maintain operating rhythm
+2026-01-19,North America,Web Portal,Free,60,2605,34,4.3,74,12,62,47,Login Issue,40,4260,105,Normal,69,20680,Improve SLA staffing
+2026-02-20,India,Billing Suite,Pro,71,41430,35,4.5,73,13,85.5,48,Refund Request,100,4577,118,Critical,83,21281,Improve SLA staffing
+2026-03-21,Middle East,API Gateway,Free,82,2495,4,4.7,89,9,22,10,Security Concern,19,4894,131,Normal,86,21882,Maintain operating rhythm
+2026-04-22,North America,Web Portal,Pro,93,30280,5,4.9,88,10,45.5,11,Bug Report,100,5211,144,Critical,100,22483,Maintain operating rhythm
+2026-05-23,India,Billing Suite,Free,104,3345,6,2.8,70,16,68,12,Feature Request,47,5528,17,Critical,113,23084,Improve SLA staffing
+2026-06-24,Middle East,API Gateway,Pro,115,42170,39,3,69,17,91.5,52,Delivery Delay,100,5845,30,Critical,128,23685,Improve SLA staffing
+2026-07-25,North America,Web Portal,Free,126,3715,9,3.2,68,18,28,53,Login Issue,51,6162,43,Critical,142,24286,Improve SLA staffing
+2026-08-26,India,Billing Suite,Pro,137,31020,9,3.4,92,6,51.5,15,Refund Request,100,6479,56,Critical,158,24887,Maintain operating rhythm
+2026-09-27,Middle East,API Gateway,Free,148,4085,10,3.6,66,20,74,16,Security Concern,54,6796,69,Critical,173,25488,Improve SLA staffing
+2026-10-01,North America,Web Portal,Pro,159,42910,11,3.8,65,21,97.5,17,Bug Report,100,7113,82,Critical,167,26089,Improve SLA staffing
+2026-11-02,India,Billing Suite,Free,170,3975,12,4,89,9,34,57,Feature Request,25,7430,95,High,182,26690,Maintain operating rhythm
+2026-12-03,Middle East,API Gateway,Pro,181,31760,13,4.2,88,10,57.5,58,Delivery Delay,100,7747,108,Critical,197,27291,Maintain operating rhythm
+2026-01-04,North America,Web Portal,Free,192,4825,2,4.4,62,24,68,20,Login Issue,61,8064,121,Critical,213,27892,Improve SLA staffing
+2026-02-05,India,Billing Suite,Pro,203,32130,3,4.6,94,4,5.5,21,Refund Request,100,8381,134,Critical,229,28493,Maintain operating rhythm
+2026-03-06,Middle East,API Gateway,Free,214,4715,4,4.8,93,5,28,22,Security Concern,24,8698,7,High,246,29094,Maintain operating rhythm
+2026-04-07,North America,Web Portal,Pro,225,44020,18,5,59,27,51.5,62,Bug Report,100,9015,20,Critical,263,29695,Improve SLA staffing
+2026-05-08,India,Billing Suite,Free,236,5565,19,2.9,58,28,74,35,Feature Request,68,9332,33,Critical,248,30296,Improve SLA staffing
+2026-06-09,Middle East,API Gateway,Pro,247,32870,7,3.1,90,8,11.5,25,Delivery Delay,100,9649,46,Critical,264,30897,Maintain operating rhythm
+2026-07-10,North America,Web Portal,Free,258,5455,8,3.3,89,9,34,8,Login Issue,31,9966,59,High,281,31498,Maintain operating rhythm
+2026-08-11,India,Billing Suite,Pro,269,44760,9,3.5,73,13,57.5,9,Refund Request,100,10283,72,Critical,299,32099,Improve SLA staffing
