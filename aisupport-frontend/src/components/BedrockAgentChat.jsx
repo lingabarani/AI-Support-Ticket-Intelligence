@@ -81,9 +81,14 @@ export default function BedrockAgentChat({ role = 'support_agent', mode = 'float
             <div className="text-sm font-bold text-white">{copy.title}</div>
             <div className="text-xs text-slate-400">{copy.subtitle}</div>
           </div>
-          <span className="rounded-full border border-emerald-300/30 bg-emerald-400/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-200">
-            Ready
-          </span>
+          <div className="flex flex-wrap gap-1">
+            <span className="rounded-full border border-blue-300/30 bg-blue-400/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-blue-200">
+              Bedrock API
+            </span>
+            <span className="rounded-full border border-emerald-300/30 bg-emerald-400/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-200">
+              Ready
+            </span>
+          </div>
         </div>
         {mode === 'floating' && (
           <button type="button" onClick={() => setOpen(false)} className="rounded-lg p-1.5 text-slate-400 transition-colors hover:bg-white/10 hover:text-white" aria-label="Close assistant">

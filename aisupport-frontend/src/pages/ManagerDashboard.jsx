@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 import KpiCard from '../components/KpiCard';
-import BedrockAgentChat from '../components/BedrockAgentChat';
 import { AlertTriangle, Clock, Repeat2, Route, Ticket, CheckCircle, TrendingUp } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { ticketTrendData, priorityData, slaData, agents } from '../data/dummyData';
@@ -64,9 +63,7 @@ export default function ManagerDashboard() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <BedrockAgentChat role="team_manager" mode="card" />
-          <div className="card-glass rounded-xl p-5">
+        <div className="card-glass rounded-xl p-5">
             <div className="mb-4 flex items-center justify-between gap-3">
               <div>
                 <h3 className="font-semibold text-white text-sm">Manager AI Focus</h3>
@@ -95,7 +92,6 @@ export default function ManagerDashboard() {
                 Reassign overflow from high-load agents, prioritize breached high-value customer tickets, and publish a short login troubleshooting article for deflection.
               </p>
             </div>
-          </div>
         </div>
 
         {/* Agent Performance Table */}

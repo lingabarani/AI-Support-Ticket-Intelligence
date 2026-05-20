@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import logo from '../assets/ai-support-logo.png';
 import ChatbotWidget from '../components/ChatbotWidget';
+import BedrockAgentChat from '../components/BedrockAgentChat';
 import QuickSightEmbed from '../components/QuickSightEmbed';
 
 const stats = [
@@ -128,6 +129,8 @@ export default function CustomerHome() {
             </div>
           </div>
         </section>
+
+        <BedrockAgentChat role="customer" mode="card" />
 
         <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {stats.map((item) => {
